@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'AppController@welcome');
+Route::get('/about', 'AppController@about');
